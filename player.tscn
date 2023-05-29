@@ -5,6 +5,8 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_sfcso"]
 
 [node name="Player" type="CharacterBody2D"]
+floor_constant_speed = true
+floor_snap_length = 2.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(3.57628e-07, 3.57628e-07)
